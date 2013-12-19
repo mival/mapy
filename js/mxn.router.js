@@ -16,9 +16,8 @@
      * @param {String} api The API to use, currently only 'mapquest' and 'googlev3' is supported
      * @exports Router as mxn.Router
      */
-    var Router = mxn.Router = function (element, api) {
+    var Router = mxn.Router = function (api) {
         this.api = api;
-        this.element = element;
         this.direction_service = {};
         this.direction_renderer = {};
 //        this.callback = callback;
